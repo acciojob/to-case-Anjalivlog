@@ -1,10 +1,10 @@
 function toCase(text) {
   // write your code here
-	if (str.length === 0) {
+	if (text.length === 0) {
         return '-';
     }
-    const lowerCase = str.toLowerCase();
-    const upperCase = str.toUpperCase();
+    const lowerCase = text.toLowerCase();
+    const upperCase = text.toUpperCase();
     return lowerCase + '-' + upperCase;
 }
 
